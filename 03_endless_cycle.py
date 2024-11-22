@@ -9,5 +9,7 @@ if __name__ == '__main__':
     while True:
         a = randint(-100, 100)
         b = randint(-10, 10)
+        if b == 0:
+            break
         result = division(a, b)
         print(result)
